@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/Fundo"
+    >
+
+    <TextView
+        android:textColor="@color/Letra"
+        android:fontFamily="sans-serif-black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Banco De Sangue"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:layout_marginTop="40dp"
+        ></TextView>
+
+    <ImageView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_invert_colors_black_24dp"></ImageView>
+
+    <EditText
+        android:textColorHint="@color/Letra"
+        android:padding="8dp"
+        android:background="@drawable/caixinha"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome Completo"
+
+        ></EditText>
+
+    <EditText
+        android:textColorHint="@color/Letra"
+        android:padding="8dp"
+        android:background="@drawable/caixinha"
+        android:id="@+id/txtE-mail"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        ></EditText>
+
+    <EditText
+        android:textColorHint="@color/Letra"
+        android:padding="8dp"
+        android:background="@drawable/caixinha"
+        android:id="@+id/txtCPF"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CPF"
+        ></EditText>
+
+
+    <EditText
+        android:textColorHint="@color/Letra"
+        android:padding="8dp"
+        android:background="@drawable/caixinha"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Senha"
+
+        ></EditText>
+
+    <EditText
+        android:textColorHint="@color/Letra"
+        android:padding="8dp"
+        android:background="@drawable/caixinha"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtSenhaChecar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Repita a senha"
+
+        >
+
+    </EditText>
+
+    <Button
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/botao"
+        android:textColorHint="@color/Letra"
+        android:id="@+id/btnCadastrar"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:hint="Cadastrar"
+        ></Button>
+    <Button
+        android:textColorHint="@color/Letra"
+        android:background="@color/Fundo"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnLogin"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:hint="Login"
+        >
+
+    </Button>
+</LinearLayout>
